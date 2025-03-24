@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to bottom, #ffdab9, #ffb6c1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    width: 350px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input[type="email"], input[type="tel"], input[type="text"], input[type="password"] {
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4f46e5;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
