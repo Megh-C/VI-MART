@@ -1,0 +1,76 @@
+/* General styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+}
+
+/* Navbar styling */
+nav {
+    background-color: #1d3557;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo img {
+    height: 50px; /* Adjust the logo height */
+    display: block;
+}
+
+nav ul.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 50px; /* Makes the Buy and Sell buttons equidistant */
+    margin: 0;
+}
+
+nav ul.nav-links li {
+    display: inline;
+}
+
+nav ul.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px; /* Add padding for better button look */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect to change background color to white */
+nav ul.nav-links li a:hover {
+    background-color: white; /* Changes background to white */
+    color: #1d3557; /* Text color changes to match the navbar background */
+}
+
+/* Products section styling */
+.products {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    gap: 50px;
+}
+
+.product-item {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-item p {
+    margin-top: 10px;
+    font-size: 18px; /* Increased font size for descriptions */
+    line-height: 1.5; /* Improved readability */
+    font-weight: 500;
+}
