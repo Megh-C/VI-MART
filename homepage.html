@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIGuide - Student Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <!-- Logo Image -->
+                <img src="viguide.jpeg" alt="VIGuide Logo" class="logo">
+                <!-- Tagline -->
+                <div class="tagline">Your Student Guide</div>
+            </div>
+            
+            <div class="nav-links">
+                <div class="dropdown">
+                    <button class="dropbtn">Academics <i class="fas fa-check"></i></button>
+                    <div class="dropdown-content">
+                        <a href="#">FFCS</a>
+                        <a href="#">Exams</a>
+                        <a href="#">Books</a>
+                    </div>
+                </div>
+                
+                <div class="dropdown">
+                    <button class="dropbtn">Extracurricular <i class="fas fa-check"></i></button>
+                    <div class="dropdown-content">
+                        <a href="#">Leaves</a>
+                        <a href="#">Hostel</a>
+                        <a href="#">Counseling</a>
+                        <a href="#">XYZ</a>
+                    </div>
+                </div>
+                
+                <div class="dropdown">
+                    <button class="dropbtn">Outdoors <i class="fas fa-check"></i></button>
+                    <div class="dropdown-content">
+                        <a href="#">Food</a>
+                        <a href="#">Fun</a>
+                        <a href="#">Places to Visit</a>
+                    </div>
+                </div>
+                
+                <a href="#" class="exchange-btn">Exchange with Us!</a>
+            </div>
+        </div>
+    </nav>
+
+ <!-- Slideshow -->
+<div class="slideshow-container">
+    <div class="slideshow">
+        <!-- Slide 1 -->
+        <div class="slide fade">
+            <img src="sd0.png" alt="Slide 1">
+        </div>
+        <!-- Slide 2 -->
+        <div class="slide fade">
+            <img src="sd1.webp" alt="Slide 2">
+        </div>
+        <!-- Slide 3 -->
+        <div class="slide fade">
+            <img src="sd2.webp" alt="Slide 3">
+        </div>
+        <!-- Slide 4 -->
+        <div class="slide fade">
+            <img src="sd3.jpg" alt="Slide 4">
+        </div>
+    </div>
+        <!-- Optional Navigation Arrows -->
+        <div class="slideshow-nav">
+            <button class="prev-slide">❮</button>
+            <button class="next-slide">❯</button>
+        </div>
+        
+        <!-- Optional Indicators -->
+        <div class="slide-indicators">
+            <div class="slide-indicator" data-index="0"></div>
+            <div class="slide-indicator" data-index="1"></div>
+            <div class="slide-indicator" data-index="2"></div>
+            <div class="slide-indicator" data-index="3"></div>
+        </div>
+</div>
+
+   <!-- Main Content - 3x3 Grid -->
+<div class="main-content">
+    <h1>Welcome to VIGuide</h1>
+    
+    <div class="grid-container">
+        <!-- Row 1 - Academics -->
+        <a href="ffcs.html" class="grid-item">
+            <div class="item-content">
+                <i class="fas fa-book icon-large"></i>
+                <h3>FFCS</h3>
+                <p>Course registration made easy</p>
+            </div>
+        </a>
+        
+        <a href="exams.html" class="grid-item">
+            <div class="item-content">
+                <i class="fas fa-file-alt icon-large"></i>
+                <h3>Exams</h3>
+                <p>Exam schedules and resources</p>
+            </div>
+        </a>
+        
+        <a href="books.html" class="grid-item">
+            <div class="item-content">
+                <i class="fas fa-book-open icon-large"></i>
+                <h3>Academic Extracurricular</h3>
+                <p>Academic resources & study materials</p>
+            </div>
+        </a>
+        
+        <!-- Row 2 - Outdoors -->
+        <a href="food.html" class="grid-item">
+            <div class="item-content">
+                <i class="fas fa-utensils icon-large"></i>
+                <h3>Food</h3>
+                <p>Best places to eat</p>
+            </div>
+        </a>
+        
+        <a href="fun.html" class="grid-item">
+            <div class="item-content">
+                <i class="fas fa-laugh-beam icon-large"></i>
+                <h3>Fun</h3>
+                <p>Activities and events</p>
+            </div>
+        </a>
+        
+        <a href="places.html" class="grid-item">
+            <div class="item-content">
+                <i class="fas fa-map-marked-alt icon-large"></i>
+                <h3>Places to Visit</h3>
+                <p>Explore the area</p>
+            </div>
+        </a>
+        
+        <!-- Row 3 - Extracurricular -->
+        <a href="leaves.html" class="grid-item">
+            <div class="item-content">
+                <i class="fas fa-leaf icon-large"></i>
+                <h3>Leave/Hostels</h3>
+                <p>Leave application portal</p>
+            </div>
+        </a>
+        
+        <a href="hostel-counseling.html" class="grid-item">
+            <div class="item-content">
+                <i class="fas fa-home icon-large"></i>
+                <h3>Hostel Counselling</h3>
+                <p>Hostel information</p>
+            </div>
+        </a>
+        
+        <a href="clubs.html" class="grid-item">
+            <div class="item-content">
+                <i class="fas fa-comments icon-large"></i>
+                <h3>Clubs</h3>
+                <p>Club related activities</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Academics</a></li>
+                    <li><a href="#">Extracurricular</a></li>
+                    <li><a href="#">Outdoors</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: devarsh_ganatra@gmail.com</p>
+                <p>Phone: +91 8780044082</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 VIGuide | Designed by VIGuide team
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
